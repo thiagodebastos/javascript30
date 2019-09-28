@@ -1,0 +1,15 @@
+{
+  "name": "javascript30",
+  "version": "1.0.0",
+  "description": "A quick starter with sane defaults",
+  "main": "index.js",
+  "author": "Thiago de Bastos",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier-eslint": "^9.0.0"
+  }
+}
