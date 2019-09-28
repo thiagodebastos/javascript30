@@ -5,8 +5,13 @@ function app() {
 
     if (!buttonNode || !audioNode) return;
 
+    const isPlaying = audioNode.currentTime > 0 && audioNode.currentTime < audioNode.duration;
+
+    if (isPlaying) return;
+
     buttonNode.classList.add('playing');
     audioNode.play();
+
     audioNode.onended = () => buttonNode.classList.remove('playing');
   });
 }
